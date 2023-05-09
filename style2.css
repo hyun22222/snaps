@@ -1,0 +1,320 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------- css reset code ---------------------- */ 
+
+header > div{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    margin:0 auto;
+
+}
+
+header > div > nav > ul{
+    display: flex;
+    gap: 25px;
+    font-weight: bold;
+}
+
+header > img{
+    width: 99px;
+    height: 37px;
+    margin: 0px 40px;
+}
+
+main > div{
+    display: table;
+    width: 1140px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+main > div > span{
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+main > #box-button > ul{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin: 0px auto;
+    height: 100%;
+    -webkit-box-pack: center;
+    box-sizing: border-box;
+}
+
+main > #box-button > ul > li{
+    padding: 0px 13px;
+    margin-left: 4px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+#box-button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(250,250,250)
+}
+
+
+.product-type{
+    margin: 0px;
+    padding: 0px;
+}
+
+.caption{
+    padding: 15px 0px;
+    margin: 55px 0px 0px ;
+    height: 22px;
+    border-bottom: 1px solid
+}
+
+.item-list{
+    column-gap: 16px;
+    row-gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    box-sizing: border-box
+    
+}
+
+.item{
+    width: calc(100%/3 - 11px);
+    height: 468px;
+
+}
+
+.price{
+    font-size: 12px;
+}
+
+#image-0{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-memo@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-1{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-acrylickeyring@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-2{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-acrylicstand@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-3{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-seal-sticker@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-4{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-tin-case@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-5{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-button-pin@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-6{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-button-mirror@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#image-7{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-button-magnet@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-8{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-phorocard@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-9{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-phorocard-clear@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-10{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-polaroid@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-11{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-fanbook@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-12{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-slogan@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-13{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-reflective@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-14{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-magical@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-15{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-hologram@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-16{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-fabric-poster@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-17{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-minibanner@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-18{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-airpodscase@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-19{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-budscase@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image-20{
+    height: 360px;
+    background-image: url(https://front-cdn.snaps.com/desktop/kor/images/store/intro/goods/overview/list-smarttok@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-name{
+    margin-top: 48px;
+    font-size: 18px;
+    width: 360px;
+    height: 21px;
+}
